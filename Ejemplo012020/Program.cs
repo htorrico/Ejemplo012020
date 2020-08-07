@@ -13,14 +13,17 @@ namespace Ejemplo012020
 
 
             Rectangulo rectangulo = new Rectangulo();
-            rectangulo.x1 = 10;
-            rectangulo.y1 = 20;
-            rectangulo.x2 = 0;
+            rectangulo.x1 = 0;
+            rectangulo.y1 = 0;
+            rectangulo.x2 = 12;
             rectangulo.y2 = 0;
-            rectangulo.x3 = 0;
-            rectangulo.y3 = 0;
+            rectangulo.x3 = 12;
+            rectangulo.y3 = 4;
             rectangulo.x4 = 0;
             rectangulo.y4 = 0;
+
+
+            Console.WriteLine(rectangulo.CalcularArea().ToString());
 
             Console.WriteLine(rectangulo.x1.ToString());
             Console.WriteLine(rectangulo.y1.ToString());
