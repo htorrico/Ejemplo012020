@@ -10,6 +10,16 @@ namespace Ejemplo012020
     {
         static void Main(string[] args)
         {
+            Rectangulo2 rectangulo2 = new Rectangulo2();
+
+            rectangulo2.punto1 = new Punto { x = 0, y = 0 };
+            rectangulo2.punto2 = new Punto { x = 12, y = 0 };
+            rectangulo2.punto3 = new Punto { x = 12, y = 4 };
+            rectangulo2.punto4 = new Punto { x = 0, y = 0 };
+
+            Console.WriteLine(rectangulo2.CalcularArea().ToString());
+
+
 
 
             Rectangulo rectangulo = new Rectangulo();
