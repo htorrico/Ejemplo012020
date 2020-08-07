@@ -16,5 +16,18 @@ namespace Ejemplo012020
         public int y3 { get; set; }
         public int x4 { get; set; }
         public int y4 { get; set; }
+
+        //Creando funciones
+        public int Sumar(int a,int b)
+        {
+            return a + b;
+        }
+        public int SumarCoordenada()
+        {
+            return x1 + y1;
+        }
+
+
+
     }
 }

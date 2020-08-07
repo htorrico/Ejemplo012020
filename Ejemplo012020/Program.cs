@@ -25,6 +25,16 @@ namespace Ejemplo012020
             Console.WriteLine(rectangulo.x1.ToString());
             Console.WriteLine(rectangulo.y1.ToString());
 
+            int ResultadoSuma = 0;
+            ResultadoSuma = rectangulo.Sumar(5, 4);
+
+            int ResultadoSumaCoordenadas = 0;
+            ResultadoSumaCoordenadas = rectangulo.SumarCoordenada();
+
+
+            Console.WriteLine(ResultadoSuma.ToString());
+            Console.WriteLine(ResultadoSumaCoordenadas.ToString());
+
             Console.Read();
 
 
